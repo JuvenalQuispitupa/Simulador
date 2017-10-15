@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:padding="12dp"
+    tools:context="com.juvenalquisptitupayupa.simulador.rv_item">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:id="@+id/tv_tipo_rvi"
+        android:layout_weight="1"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Secuencia"
+        android:id="@+id/tv_secuencia_rvi"
+        android:layout_weight="1"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Valor"
+        android:id="@+id/tv_valor_rvi"
+        android:layout_weight="1"
+        android:textSize="21dp"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:id="@+id/btn_editar_rvi"
+        android:layout_weight="1"/>
+</LinearLayout>
